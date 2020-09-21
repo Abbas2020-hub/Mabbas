@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2015 DevIntelle Consulting Service Pvt.Ltd (<http://www.devintellecs.com>).
+
+For Module Support : devintelle@gmail.com  or Skype : devintelle 
+ -->
+<odoo>
+        <record id="sq_sequence" model="ir.sequence">
+            <field name="name">Sales Quotation</field>
+            <field name="code">sale.quotation</field>
+            <field name="prefix">SQ</field>
+            <field name="padding">3</field>
+        </record>
+</odoo>
