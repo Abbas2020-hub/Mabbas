@@ -1,0 +1,535 @@
+VERSION 5.00
+Begin {78E93846-85FD-11D0-8487-00A0C90DC8A9} Bill 
+   Bindings        =   "Bill.dsx":0000
+   Caption         =   "Bill Inclusive"
+   ClientHeight    =   11115
+   ClientLeft      =   60
+   ClientTop       =   345
+   ClientWidth     =   15240
+   Icon            =   "Bill.dsx":0017
+   MDIChild        =   -1  'True
+   ShowInTaskbar   =   0   'False
+   WindowState     =   2  'Maximized
+   _ExtentX        =   26882
+   _ExtentY        =   19606
+   _Version        =   393216
+   _DesignerVersion=   100684101
+   ReportWidth     =   10083
+   BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+      Name            =   "Arial"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   GridX           =   10
+   GridY           =   10
+   LeftMargin      =   1440
+   RightMargin     =   1440
+   TopMargin       =   1440
+   BottomMargin    =   1440
+   DataMember      =   "Hospital"
+   NumSections     =   1
+   SectionCode0    =   4
+   BeginProperty Section0 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Section1"
+      Object.Height          =   7500
+      KeepTogether    =   -1  'True
+      NumControls     =   27
+      ItemType0       =   3
+      BeginProperty Item0 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label1"
+         Object.Left            =   432
+         Object.Top             =   1872
+         Object.Width           =   2016
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Bill No:"
+      EndProperty
+      ItemType1       =   3
+      BeginProperty Item1 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label2"
+         Object.Left            =   1296
+         Object.Top             =   144
+         Object.Width           =   8352
+         Object.Height          =   870
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Monotype Corsiva"
+            Size            =   36
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   -1  'True
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   255
+         Object.Caption         =   "Smallville Medical Center"
+         Alignment       =   2
+      EndProperty
+      ItemType2       =   3
+      BeginProperty Item2 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label3"
+         Object.Left            =   7488
+         Object.Top             =   1008
+         Object.Width           =   2025
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   -1  'True
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "caring for 62 years..."
+         Alignment       =   1
+      EndProperty
+      ItemType3       =   3
+      BeginProperty Item3 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label4"
+         Object.Left            =   4176
+         Object.Top             =   1152
+         Object.Width           =   1860
+         Object.Height          =   300
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   4210688
+         Object.Caption         =   "Smallville, Kansas"
+      EndProperty
+      ItemType4       =   3
+      BeginProperty Item4 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label5"
+         Object.Left            =   432
+         Object.Top             =   3600
+         Object.Width           =   2025
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Amount Cleared:"
+      EndProperty
+      ItemType5       =   3
+      BeginProperty Item5 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label6"
+         Object.Left            =   5184
+         Object.Top             =   3600
+         Object.Width           =   2160
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Balance Amount:"
+      EndProperty
+      ItemType6       =   3
+      BeginProperty Item6 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label7"
+         Object.Left            =   432
+         Object.Top             =   3024
+         Object.Width           =   2016
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Total Amt:"
+      EndProperty
+      ItemType7       =   3
+      BeginProperty Item7 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label8"
+         Object.Left            =   432
+         Object.Top             =   2448
+         Object.Width           =   2016
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Patient Name:"
+      EndProperty
+      ItemType8       =   5
+      BeginProperty Item8 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Line1"
+         Object.Left            =   288
+         Object.Top             =   1584
+         Object.Width           =   9510
+      EndProperty
+      ItemType9       =   3
+      BeginProperty Item9 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label9"
+         Object.Left            =   5184
+         Object.Top             =   1872
+         Object.Width           =   2160
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Doctor In Charge:"
+      EndProperty
+      ItemType10      =   3
+      BeginProperty Item10 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label10"
+         Object.Left            =   576
+         Object.Top             =   5472
+         Object.Width           =   1590
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CMO"
+         Alignment       =   2
+      EndProperty
+      ItemType11      =   3
+      BeginProperty Item11 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label11"
+         Object.Left            =   3456
+         Object.Top             =   5472
+         Object.Width           =   2148
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Doctor in Charge"
+         Alignment       =   2
+      EndProperty
+      ItemType12      =   3
+      BeginProperty Item12 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label12"
+         Object.Left            =   6912
+         Object.Top             =   5472
+         Object.Width           =   1875
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Attending Nurse"
+         Alignment       =   2
+      EndProperty
+      ItemType13      =   3
+      BeginProperty Item13 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label13"
+         Object.Left            =   576
+         Object.Top             =   6336
+         Object.Width           =   870
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Date:"
+      EndProperty
+      ItemType14      =   3
+      BeginProperty Item14 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Label14"
+         Object.Left            =   6912
+         Object.Top             =   6336
+         Object.Width           =   864
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Stamp:"
+      EndProperty
+      ItemType15      =   5
+      BeginProperty Item15 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Line2"
+         Object.Left            =   288
+         Object.Top             =   7200
+         Object.Width           =   9795
+      EndProperty
+      ItemType16      =   5
+      BeginProperty Item16 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Line3"
+         Object.Left            =   576
+         Object.Top             =   5328
+         Object.Width           =   1584
+      EndProperty
+      ItemType17      =   5
+      BeginProperty Item17 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Line6"
+         Object.Left            =   3888
+         Object.Top             =   5328
+         Object.Width           =   1590
+      EndProperty
+      ItemType18      =   5
+      BeginProperty Item18 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Line4"
+         Object.Left            =   7056
+         Object.Top             =   5328
+         Object.Width           =   1590
+      EndProperty
+      ItemType19      =   5
+      BeginProperty Item19 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Line5"
+         Object.Left            =   7344
+         Object.Top             =   2160
+         Object.Width           =   2295
+      EndProperty
+      ItemType20      =   5
+      BeginProperty Item20 {1C13A8E3-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Line7"
+         Object.Left            =   1584
+         Object.Top             =   6624
+         Object.Width           =   1872
+      EndProperty
+      ItemType21      =   6
+      BeginProperty Item21 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Shape1"
+         Object.Left            =   7776
+         Object.Top             =   5904
+         Object.Width           =   1590
+         Object.Height          =   1155
+         Object.Visible         =   0   'False
+         Shape           =   3
+      EndProperty
+      ItemType22      =   4
+      BeginProperty Item22 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Text1"
+         Object.Left            =   2880
+         Object.Top             =   1872
+         Object.Width           =   1875
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "bill_no"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   1033
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "Hospital"
+      EndProperty
+      ItemType23      =   4
+      BeginProperty Item23 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Text2"
+         Object.Left            =   7344
+         Object.Top             =   3600
+         Object.Width           =   1875
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "balance"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   1033
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "hospital"
+      EndProperty
+      ItemType24      =   4
+      BeginProperty Item24 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Text3"
+         Object.Left            =   2880
+         Object.Top             =   2448
+         Object.Width           =   1875
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "patient_name"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   1033
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "hospital"
+      EndProperty
+      ItemType25      =   4
+      BeginProperty Item25 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Text4"
+         Object.Left            =   2880
+         Object.Top             =   3024
+         Object.Width           =   1875
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "total_amount"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   1033
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "hospital"
+      EndProperty
+      ItemType26      =   4
+      BeginProperty Item26 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Text5"
+         Object.Left            =   2880
+         Object.Top             =   3600
+         Object.Width           =   1875
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "amount_paid"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   1033
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "hospital"
+      EndProperty
+   EndProperty
+End
+Attribute VB_Name = "Bill"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+
+
