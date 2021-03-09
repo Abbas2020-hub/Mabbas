@@ -10,6 +10,11 @@ from odoo.exceptions import UserError, ValidationError
 from odoo.tools import float_compare, float_is_zero
 
 
+class AccountAsset(models.Model):
+    _inherit = 'account.asset'
+    @api.onchange('x_studio___8')
+    def change(self)
+        self.x_studio___6 = 'asdhasdbjksd'
 class AccountAssetCategory(models.Model):
     _name = 'account.asset.category'
     _description = 'Asset category'
